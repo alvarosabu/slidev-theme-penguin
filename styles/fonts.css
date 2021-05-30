@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Gilroy ExtraBold';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local('Gilroy ExtraBold'),
+    url('/fonts/Gilroy-ExtraBold.otf') format('otf');
+}

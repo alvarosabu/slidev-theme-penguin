@@ -1,0 +1,59 @@
+:root {
+  // default theme color
+  // can be overrided by uses `themeConfig` option
+  --slidev-theme-primary: #3e5166;
+  --slidev-theme-secondary: #34d399;
+}
+
+/* general css here */
+
+html:not(.dark) {
+  /* light mode css here */
+  @apply text-primary;
+}
+
+html.dark {
+  /* dark mode css here */
+  @apply text-white;
+
+  h1 {
+    @apply text-secondary;
+  }
+}
+
+.slidev-layout {
+  @apply relative h-full grid;
+
+  h1 {
+    @apply mb-8;
+  }
+
+  ul.emoji-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding-left: 1rem;
+      text-indent: -0.7rem;
+    }
+
+    li::before {
+      content: '🐧 ';
+    }
+  }
+}
+
+.slidev-layout.intro {
+  h1 {
+    @apply text-6xl leading-20 font-title font-extrabold;
+  }
+
+  h1 + p {
+    @apply opacity-60 -mt-4 text-2xl;
+  }
+
+  a {
+    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
+  }
+}

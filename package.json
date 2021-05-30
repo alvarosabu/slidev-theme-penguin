@@ -1,0 +1,41 @@
+{
+  "name": "slidev-theme-penguin",
+  "version": "1.0.0",
+  "description": "A Penguin theme for Slidev",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "slidev-penguin"
+  ],
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://as-theme.alvarosaburido.dev/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarosaburido/slidev-theme-as.git"
+  },
+  "bugs": "https://github.com/alvarosaburido/slidev-theme-as/issues",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "prism"
+  },
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.15.0",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.11"
+  },
+  "devDependencies": {
+    "@slidev/cli": "*",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.10.0",
+    "vite-svg-loader": "^2.0.2"
+  }
+}
