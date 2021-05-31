@@ -43,17 +43,3 @@ html.dark {
     }
   }
 }
-
-.slidev-layout.intro {
-  h1 {
-    @apply text-6xl leading-20 font-title font-extrabold;
-  }
-
-  h1 + p {
-    @apply opacity-60 -mt-4 text-2xl;
-  }
-
-  a {
-    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
-  }
-}

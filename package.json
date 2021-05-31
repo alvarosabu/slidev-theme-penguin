@@ -1,7 +1,8 @@
 {
   "name": "slidev-theme-penguin",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A Penguin theme for Slidev",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev>",
   "keywords": [
     "slidev-theme",
     "slidev",
@@ -9,20 +10,26 @@
   ],
   "license": "MIT",
   "private": false,
-  "homepage": "https://as-theme.alvarosaburido.dev/",
+  "homepage": "https://penguin-theme.alvarosaburido.dev/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvarosaburido/slidev-theme-as.git"
+    "url": "git+https://github.com/alvarosaburido/slidev-theme-penguin.git"
   },
-  "bugs": "https://github.com/alvarosaburido/slidev-theme-as/issues",
+  "bugs": "https://github.com/alvarosaburido/slidev-theme-penguin/issues",
   "slidev": {
     "colorSchema": "both",
     "highlighter": "prism"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   },
   "scripts": {
     "dev": "slidev example.md --open",
     "build": "slidev build example.md",
     "export": "slidev export example.md",
+    "semantic-release": "semantic-release",
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
@@ -36,6 +43,8 @@
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^7.10.0",
+    "playwright-chromium": "^1.11.1",
+    "semantic-release": "^17.4.3",
     "vite-svg-loader": "^2.0.2"
   }
 }

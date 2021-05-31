@@ -21,7 +21,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="bg-main slidev-layout intro">
+  <div class="bg-section slidev-layout new-section">
     <LayoutHeader :logo-header="logoHeader" />
     <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
     <div class="flex justify-center text-center">
@@ -38,17 +38,17 @@ const props = defineProps({
 </template>
 
 <style>
-.slidev-layout.intro {
+.slidev-layout.new-section {
   h1 {
-    @apply text-6xl leading-20 font-title font-extrabold;
+    @apply text-primary text-4xl leading-20 mb-0 font-title font-extrabold;
   }
 
   h1 + p {
-    @apply opacity-60 -mt-4 text-2xl;
+    @apply mt-4 opacity-100;
   }
 
-  a {
-    @apply text-secondary-400 hover:text-secondary-500 dark:(text-white hover:text-gray-200);
+  p > img {
+    @apply w-2/3 mx-auto;
   }
 }
 </style>
