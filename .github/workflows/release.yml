@@ -6,7 +6,7 @@ on:
       - next
 jobs:
   release:
-    name: Run test and Release
+    name: Release
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
