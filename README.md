@@ -4,7 +4,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-penguin?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-penguin)
 
-A Penguin 🐧 theme for [Slidev](https://github.com/slidevjs/slidev).
+A Penguin 🐧  theme for [Slidev](https://github.com/slidevjs/slidev).
 
 This theme is based on my personal brand, but it can be easily use and customized for your own.
 
@@ -16,9 +16,9 @@ run `npm run dev` to check out the slides for more details of how to start writi
 put some screenshots here to demonstrate your theme,
 -->
 
-<!-- 
-Live demo: [...]
--->
+
+Live demo: [here](https://slidev-theme-penguin.alvarosaburido.dev/)
+
 
 ## Install
 
