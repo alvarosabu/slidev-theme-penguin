@@ -29,25 +29,25 @@ html:not(.dark) {
 }
 
 html.dark {
-  --prism-foreground: #d4cfbf;
-  --prism-background: #1b1b1b;
-  --prism-comment: #758575;
-  --prism-string: #d48372;
-  --prism-literal: #429988;
-  --prism-keyword: #4d9375;
+  --prism-foreground: #88e5c3;
+  --prism-background: #3e5166;
+  --prism-comment: #a0ada0;
+  --prism-string: #f8e4aa;
+  --prism-literal: #2f8a89;
+  --prism-number: #296aa3;
+  --prism-keyword: #ff80bf;
+  --prism-function: #d9e2b1;
   --prism-boolean: #1c6b48;
-  --prism-number: #6394bf;
-  --prism-variable: #c2b36e;
-  --prism-function: #a1b567;
+  --prism-constant: #f8e4aa;
   --prism-deleted: #a14f55;
-  --prism-class: #54b1bf;
-  --prism-builtin: #e0a569;
-  --prism-property: #dd8e6e;
-  --prism-namespace: #db889a;
-  --prism-punctuation: #858585;
+  --prism-class: #88e5c3;
+  --prism-builtin: #ab5959;
+  --prism-property: #b58451;
+  --prism-namespace: #b05a78;
+  --prism-punctuation: #fbfbfb;
   --prism-decorator: #bd8f8f;
   --prism-regex: #ab5e3f;
-  --prism-json-property: #6b8b9e;
+  --prism-json-property: #698c96;
   --prism-line-number: #888888;
   --prism-line-number-gutter: #eeeeee;
   --prism-line-highlight-background: #444444;

@@ -39,7 +39,7 @@
     "theme-vitesse": "^0.1.11"
   },
   "devDependencies": {
-    "@slidev/cli": "*",
+    "@slidev/cli": "0.20.1",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-vue": "^7.10.0",
