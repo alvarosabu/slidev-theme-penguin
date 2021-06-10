@@ -24,7 +24,7 @@ const props = defineProps({
   <div class="bg-main slidev-layout intro">
     <LayoutHeader :logo-header="logoHeader" />
     <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
-    <div class="flex justify-center text-center">
+    <div class="flex flex-col justify-center text-center">
       <slot />
     </div>
     <LayoutFooter

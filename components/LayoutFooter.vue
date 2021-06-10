@@ -19,7 +19,7 @@ const props = defineProps({
 
 const { now } = useNow()
 
-const date = computed(() => now.value.toLocaleDateString('en-US'))
+const date = computed(() => now?.value.toLocaleDateString('en-US'))
 </script>
 <template>
   <footer
