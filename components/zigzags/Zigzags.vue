@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Zigzags from '/public/zigzags.svg'
+import Zigzags from './assets/zigzags.svg'
 </script>
 <template>
   <Zigzags />
