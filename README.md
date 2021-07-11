@@ -19,6 +19,19 @@ put some screenshots here to demonstrate your theme,
 
 Live demo: [here](https://slidev-theme-penguin.alvarosaburido.dev/)
 
+## You can help me keep working on this project 💚
+
+- [Become a Sponsor on GitHub](https://github.com/sponsors/alvarosaburido)
+- [One-time donation via PayPal](https://paypal.me/alvarosaburido)
+
+<h4 align="center">Generous Unicorns 🦄</h4>
+
+<p align="center">
+  <a href="https://github.com/OmgImAlexis" target="_blank" rel="noopener noreferrer" ">
+    <img src="https://avatars.githubusercontent.com/u/6525926?v=4" height="72px"  style="border-radius: 100%; overflow: hidden; border: 4px solid #5EDCAE" alt="OmgImAlexis">
+  </a>
+</p>
+
 
 ## Install
 
