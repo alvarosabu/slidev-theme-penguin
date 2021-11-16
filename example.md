@@ -24,6 +24,7 @@ layout: presenter
 eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
 eventUrl: 'https://vuejs.amsterdam/'
 twitter: '@alvaro_code'
+
 twitterUrl: 'https://twitter.com/alvaro_code'
 presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370075/as-portfolio/alvaro_saburido.jpg'
 ---
