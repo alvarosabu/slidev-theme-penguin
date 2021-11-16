@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Nunito:wght@400;600&display=swap');
+
 @font-face {
   font-family: 'Gilroy ExtraBold';
   font-style: normal;
   font-weight: bold;
   font-display: swap;
   src: local('Gilroy ExtraBold'),
-    url('/fonts/Gilroy-ExtraBold.otf') format('otf');
+    url('/fonts/Gilroy-ExtraBold.otf') format('opentype'),
+    url('/fonts/Gilroy-ExtraBold.woff') format('woff');
 }

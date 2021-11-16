@@ -33,18 +33,18 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.15.0",
+    "@slidev/types": "^0.27.15",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.1.11"
+    "theme-vitesse": "^0.1.13",
+    "vite-svg-loader": "^3.1.0"
   },
   "devDependencies": {
-    "@slidev/cli": "0.20.1",
-    "eslint": "^7.27.0",
+    "@slidev/cli": "0.27.15",
+    "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-vue": "^7.10.0",
-    "playwright-chromium": "^1.11.1",
-    "semantic-release": "^17.4.3",
-    "vite-svg-loader": "^2.0.2"
+    "eslint-plugin-vue": "^8.0.3",
+    "playwright-chromium": "^1.16.3",
+    "semantic-release": "^18.0.0"
   }
 }
