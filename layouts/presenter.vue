@@ -32,15 +32,17 @@ const props = defineProps({
     :twitter-url="twitterUrl"
   >
     <div class="flex items-center">
-      <figure class="w-1/2 px-12">
+      <figure class="w-1/2 ">
+      <TheDots />
         <img
           :src="presenterImage"
           class="
+            relative  
             rounded-full
             object-cover
             h-80
             w-80
-            border border-8 border-secondary-400
+            border border-8 border-secondary-400 z-10
           "
         />
       </figure>
