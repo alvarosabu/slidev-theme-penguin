@@ -50,20 +50,6 @@ export default defineWindiSetup(() => ({
         800: '#145A41',
         900: '#0B3023',
       },
-      tertiary: {
-        // mango-tango
-        DEFAULT: '#FD813E',
-        50: '#FFFFFF',
-        100: '#FFFFFF',
-        200: '#FFE4D5',
-        300: '#FEC3A3',
-        400: '#FEA270',
-        500: '#FD813E',
-        600: '#FC600C',
-        700: '#D34B02',
-        800: '#A03902',
-        900: '#6E2701',
-      },
       warning: {
         // maiz yellow
         DEFAULT: '#F0C64C',
@@ -78,14 +64,6 @@ export default defineWindiSetup(() => ({
         800: '#96730D',
         900: '#674F09',
       },
-      fontFamily: {
-        sans: ['Open Sans', 'system-ui', 'sans-serif'],
-        serif: ['Gilroy', 'Georgia', 'serif'],
-        mono: ['FiraCode', 'ui-monospace'],
-      },
-    },
-    extend: {
-      // fonts can be replaced here, remember to update the web font links in `index.html`
       fontFamily: {
         sans: '"Nunito Sans", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
         title: ['Gilroy ExtraBold', 'sans-serif'],
