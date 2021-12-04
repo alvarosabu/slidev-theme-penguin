@@ -28,6 +28,10 @@ html.dark {
     @apply mb-8;
   }
 
+  h1, h2, h3, h4 {
+    @apply font-title;
+  }
+
   ul.emoji-list {
     list-style: none;
     padding: 0;

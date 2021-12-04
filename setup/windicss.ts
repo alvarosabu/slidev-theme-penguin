@@ -64,12 +64,14 @@ export default defineWindiSetup(() => ({
         800: '#96730D',
         900: '#674F09',
       },
-      fontFamily: {
-        sans: '"Nunito Sans", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
-        title: ['Gilroy ExtraBold', 'sans-serif'],
-        mono: '"Fira Code", monospace',
-      },
     },
+    extend: {
+      fontFamily: {
+        sans: ['Nunito', 'system-ui', 'sans-serif'],
+        title: ['Gilroy', 'Georgia', 'serif'],
+        mono: ['Fira Code', 'ui-monospace'],
+      },
+    }
   },
   plugins: [
     plugin(function ({ addUtilities, theme, variants }) {
