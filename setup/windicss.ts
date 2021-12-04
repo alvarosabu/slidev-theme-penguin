@@ -3,6 +3,24 @@ import { defineWindiSetup } from '@slidev/types'
 const colors = require('windicss/colors')
 const plugin = require('windicss/plugin')
 
+const aspectRatioPlugin = plugin(({ addUtilities }) => {
+  const newUtilities = {
+    '.aspect-none': {
+      aspectRatio: 'none',
+    },
+    '.aspect-16-9': {
+      aspectRatio: '16/9',
+    },
+    '.aspect-4-3': {
+      aspectRatio: '4/3',
+    },
+    '.aspect-1-1': {
+      aspectRatio: '1/1',
+    },
+  }
+  addUtilities(newUtilities, ['responsive', 'hover'])
+})
+
 export default defineWindiSetup(() => ({
   darkMode: 'class',
   extract: {
@@ -22,6 +40,8 @@ export default defineWindiSetup(() => ({
       white: colors.white,
       gray: colors.trueGray,
       red: colors.red,
+      yellow: colors.yellow,
+      green: colors.green,
       primary: {
         // oxford
         DEFAULT: '#3E5166',
@@ -64,14 +84,17 @@ export default defineWindiSetup(() => ({
         800: '#96730D',
         900: '#674F09',
       },
-      fontFamily: {
-        sans: '"Nunito Sans", ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"',
-        title: ['Gilroy ExtraBold', 'sans-serif'],
-        mono: '"Fira Code", monospace',
-      },
     },
+    extend: {
+      fontFamily: {
+        sans: ['Nunito', 'system-ui', 'sans-serif'],
+        title: ['Gilroy', 'Georgia', 'serif'],
+        mono: ['Fira Code', 'ui-monospace'],
+      },
+    }
   },
   plugins: [
+    aspectRatioPlugin,
     plugin(function ({ addUtilities, theme, variants }) {
       const newUtilities = {
         '.flip-y': {

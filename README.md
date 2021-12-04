@@ -63,7 +63,7 @@ twitterUrl: 'https://twitter.com/alvaro_code'
 ```
 With properties            | Without properties 
 :-------------------------:|:-------------------------:
-![introDark](./screenshots/dark/01.png) | ![introLight](./screenshots/dark/03.png)
+![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/dark/04.png)
 
 ---
 
@@ -83,7 +83,7 @@ layout: intro
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![introDark](./screenshots/dark/01.png) | ![introLight](./screenshots/light/01.png)
+![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/light/intro.png)
 
 ---
 
@@ -103,7 +103,7 @@ presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![presenterDark](./screenshots/dark/02.png) | ![presenterLight](./screenshots/light/02.png)
+![presenterDark](./screenshots/dark/presenter.png) | ![presenterLight](./screenshots/light/presenter.png)
 
 ---
 
@@ -121,9 +121,88 @@ layout: new-section
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![newSectionDark](./screenshots/dark/05.png) | ![newSectionLight](./screenshots/light/05.png)
+![newSectionDark](./screenshots/dark/new-section.png) | ![newSectionLight](./screenshots/light/new-section.png)
 
 ---
+
+
+### Text Image `text-image`
+
+Usage:
+
+- Add `text-image` in the layout field and add the image url on the `media` field.
+
+```
+---
+layout: text-image
+media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+---
+```
+
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![textImageDark](./screenshots/dark/text-image.png) | ![textImageLight](./screenshots/light/text-image.png)
+
+- Add `reverse:true` to reverse the order of the layout
+
+
+```
+---
+layout: text-image
+media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+reverse: true
+---
+```
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![textImageDark](./screenshots/dark/text-image-reverse.png) | ![textImageLight](./screenshots/light/text-image-reverse.png)
+---
+
+### Text Window `text-window`
+
+Usage:
+
+- Add `text-window` in the layout field.
+
+```
+---
+layout: text-window
+---
+```
+
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![textWindowDark](./screenshots/dark/text-window.png) | ![textWindowLight](./screenshots/light/text-window.png)
+
+- Add `reverse:true` to reverse the order of the layout
+
+
+```
+---
+layout: text-window
+reverse: true
+---
+```
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![textWindowDark](./screenshots/dark/text-window-reverse.png) | ![textWindowLight](./screenshots/light/text-window-reverse.png)
+
+To set the content inside the window console, just use the syntax sugar `::window::` for slot name:
+
+```
+---
+layout: text-window
+---
+
+# Consoles
+
+Use code snippets and get the highlighting directly into a nice looking window!
+
+::window::
+
+I go inside the window
+
+```
 
 ## Components
 
@@ -140,6 +219,20 @@ To use it you just need to add it to your `examples.md` like this:
 ```markdown
 Say hi at <fancy-link href="https://twitter.com/alvaro_code">@alvaro_code</fancy-link>
 ```
+
+### Console window `the-console`
+
+
+```ts
+<the-console>
+  <iframe height="300" style="width: 100%;" scrolling="no" title="Text Clock" src="https://codepen.io/searleb/embed/pvQaJB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href="https://codepen.io/searleb/pen/pvQaJB">
+    Text Clock</a> by Bill Searle (<a href="https://codepen.io/searleb">@searleb</a>)
+    on <a href="https://codepen.io">CodePen</a>.
+  </iframe>
+</the-console>s
+```
+
 
 > TODO:
 
