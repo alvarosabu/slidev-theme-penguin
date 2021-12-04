@@ -63,7 +63,7 @@ twitterUrl: 'https://twitter.com/alvaro_code'
 ```
 With properties            | Without properties 
 :-------------------------:|:-------------------------:
-![introDark](./screenshots/dark/01.png) | ![introLight](./screenshots/dark/03.png)
+![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/dark/04.png)
 
 ---
 
@@ -83,7 +83,7 @@ layout: intro
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![introDark](./screenshots/dark/01.png) | ![introLight](./screenshots/light/01.png)
+![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/light/intro.png)
 
 ---
 
@@ -103,7 +103,7 @@ presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![presenterDark](./screenshots/dark/02.png) | ![presenterLight](./screenshots/light/02.png)
+![presenterDark](./screenshots/dark/presenter.png) | ![presenterLight](./screenshots/light/presenter.png)
 
 ---
 
@@ -121,7 +121,26 @@ layout: new-section
 
 Dark                       | Light
 :-------------------------:|:-------------------------:
-![newSectionDark](./screenshots/dark/05.png) | ![newSectionLight](./screenshots/light/05.png)
+![newSectionDark](./screenshots/dark/new-section.png) | ![newSectionLight](./screenshots/light/new-section.png)
+
+---
+
+
+### Text Image `text-image`
+
+Usage:
+
+- Add `text-image` in the layout field.
+
+```
+---
+layout: text-image
+---
+```
+
+Dark                       | Light
+:-------------------------:|:-------------------------:
+![textImageDark](./screenshots/dark/text-image.png) | ![textImageLight](./screenshots/light/text-image.png)
 
 ---
 

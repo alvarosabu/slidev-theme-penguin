@@ -39,6 +39,21 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 - Say hi at <fancy-link href="https://twitter.com/alvaro_code">@alvaro_code</fancy-link>
 ---
 
+---
+layout: text-image
+eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
+eventUrl: 'https://vuejs.amsterdam/'
+twitter: '@alvaro_code'
+
+twitterUrl: 'https://twitter.com/alvaro_code'
+media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+---
+
+# This is a peguin
+
+Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa menool ladilla chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? Cacique ladilla sit Se prendio el peo labia gravida Praesent tequeño. Qué paso mi pana?! elit parchita molleja aguacate vergación, háblame mollejúo chamito est burda mauris morbi;
+---
+
 # What is Slidev?
 
 Slidev is a slides maker and presenter designed for developers `devs`, consist of the following features
