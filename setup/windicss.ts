@@ -3,6 +3,24 @@ import { defineWindiSetup } from '@slidev/types'
 const colors = require('windicss/colors')
 const plugin = require('windicss/plugin')
 
+const aspectRatioPlugin = plugin(({ addUtilities }) => {
+  const newUtilities = {
+    '.aspect-none': {
+      aspectRatio: 'none',
+    },
+    '.aspect-16-9': {
+      aspectRatio: '16/9',
+    },
+    '.aspect-4-3': {
+      aspectRatio: '4/3',
+    },
+    '.aspect-1-1': {
+      aspectRatio: '1/1',
+    },
+  }
+  addUtilities(newUtilities, ['responsive', 'hover'])
+})
+
 export default defineWindiSetup(() => ({
   darkMode: 'class',
   extract: {
@@ -22,6 +40,8 @@ export default defineWindiSetup(() => ({
       white: colors.white,
       gray: colors.trueGray,
       red: colors.red,
+      yellow: colors.yellow,
+      green: colors.green,
       primary: {
         // oxford
         DEFAULT: '#3E5166',
@@ -74,6 +94,7 @@ export default defineWindiSetup(() => ({
     }
   },
   plugins: [
+    aspectRatioPlugin,
     plugin(function ({ addUtilities, theme, variants }) {
       const newUtilities = {
         '.flip-y': {
