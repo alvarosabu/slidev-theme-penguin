@@ -1,12 +1,13 @@
 ---
 theme: none
-colorSchema: 'auto'
+colorSchema: 'dark'
 layout: intro
 logoHeader: '/logo.svg'
 eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
 eventUrl: 'https://vuejs.amsterdam/'
 twitter: '@alvaro_code'
 twitterUrl: 'https://twitter.com/alvaro_code'
+
 ---
 
 # A penguin Slidev Theme
@@ -37,7 +38,6 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 - I often write at <fancy-link href="https://dev.to/alvarosaburido">@alvarosaburido</fancy-link>
 - Portfolio <fancy-link href="https://alvarosaburido.dev">alvarosaburido.dev</fancy-link>
 - Say hi at <fancy-link href="https://twitter.com/alvaro_code">@alvaro_code</fancy-link>
----
 
 ---
 layout: text-image
