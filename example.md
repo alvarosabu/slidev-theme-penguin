@@ -41,7 +41,7 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev is a slides maker and presenter designed for developers `devs`, consist of the following features
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 - 🎨 **Themable** - theme can be shared and used with npm packages
