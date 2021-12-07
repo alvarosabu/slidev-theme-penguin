@@ -19,7 +19,7 @@ html:not(.dark) {
   --prism-constant: #f8e4aa;
   --prism-deleted: #a14f55;
   --prism-class: #88e5c3;
-  --prism-builtin: #ab5959;
+  --prism-builtin: #88e5c3;
   --prism-property: #f8e4aa;
   --prism-namespace: #b05a78;
   --prism-punctuation: #fbfbfb;
