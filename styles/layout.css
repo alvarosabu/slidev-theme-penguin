@@ -32,6 +32,14 @@ html.dark {
     @apply font-title;
   }
 
+  .prose > ul {
+    list-style: none;
+
+    li {
+      margin-left: 0;
+    }
+  }
+
   ul.emoji-list {
     list-style: none;
     padding: 0;
