@@ -20,12 +20,13 @@ html:not(.dark) {
   --prism-deleted: #a14f55;
   --prism-class: #88e5c3;
   --prism-builtin: #ab5959;
-  --prism-property: #b58451;
+  --prism-property: #f8e4aa;
   --prism-namespace: #b05a78;
   --prism-punctuation: #fbfbfb;
   --prism-decorator: #bd8f8f;
   --prism-regex: #ab5e3f;
   --prism-json-property: #698c96;
+  --prism-selector: #c3e5b8;
 }
 
 html.dark {
@@ -41,8 +42,8 @@ html.dark {
   --prism-constant: #f8e4aa;
   --prism-deleted: #a14f55;
   --prism-class: #88e5c3;
-  --prism-builtin: #ab5959;
-  --prism-property: #b58451;
+  --prism-builtin: #88e5c3;
+  --prism-property: #f8e4aa;
   --prism-namespace: #b05a78;
   --prism-punctuation: #fbfbfb;
   --prism-decorator: #bd8f8f;
@@ -52,6 +53,7 @@ html.dark {
   --prism-line-number-gutter: #eeeeee;
   --prism-line-highlight-background: #444444;
   --prism-selection-background: #444444;
+  --prism-selector: #c3e5b8;
 }
 
 pre[class*='language-'] {
