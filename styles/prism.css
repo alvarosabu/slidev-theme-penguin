@@ -12,7 +12,7 @@ html:not(.dark) {
   --prism-comment: #a0ada0;
   --prism-string: #f8e4aa;
   --prism-literal: #2f8a89;
-  --prism-number: #296aa3;
+  --prism-number: #9ecaf1;
   --prism-keyword: #ff80bf;
   --prism-function: #d9e2b1;
   --prism-boolean: #1c6b48;
@@ -35,7 +35,7 @@ html.dark {
   --prism-comment: #a0ada0;
   --prism-string: #f8e4aa;
   --prism-literal: #2f8a89;
-  --prism-number: #296aa3;
+  --prism-number: #9ecaf1;
   --prism-keyword: #ff80bf;
   --prism-function: #d9e2b1;
   --prism-boolean: #1c6b48;
