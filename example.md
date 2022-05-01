@@ -2,11 +2,12 @@
 theme: none
 colorSchema: 'auto'
 layout: intro
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+themeConfig:
+  logoHeader: '/logo.svg'
+  eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
+  eventUrl: 'https://vuejs.amsterdam/'
+  twitter: '@alvaro_code'
+  twitterUrl: 'https://twitter.com/alvaro_code'
 
 ---
 
@@ -41,11 +42,6 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 
 ---
 layout: text-image
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-
-twitterUrl: 'https://twitter.com/alvaro_code'
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
 ---
 
@@ -59,11 +55,6 @@ Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa me
 ---
 layout: text-image
 reverse: true
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-
-twitterUrl: 'https://twitter.com/alvaro_code'
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
 ---
 
@@ -106,11 +97,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 layout: new-section
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+
 ---
 
 # New wild section appeared
@@ -146,11 +133,7 @@ app.use(VueDynamicForms);
 
 ---
 layout: text-window
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+
 ---
 
 # Consoles
@@ -197,13 +180,7 @@ Use window to show a live demo of any page, or even a sub component!
 </iframe>
 </div>
 ---
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
-presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370075/as-portfolio/alvaro_saburido.jpg'
-class: 'text-center align-self-center justify-self-center'
+class: 'grid text-center align-self-center justify-self-center'
 ---
 
 # Gracias totales
