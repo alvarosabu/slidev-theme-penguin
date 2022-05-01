@@ -43,6 +43,7 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 ---
 layout: text-image
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+caption: 'I am a penguin'
 ---
 
 # This is a peguin
