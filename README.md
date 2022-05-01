@@ -55,10 +55,12 @@ But you can add this properties to add header and footer
 
 ```
 ---
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+themeConfig:
+  logoHeader: '/logo.svg'
+  eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
+  eventUrl: 'https://vuejs.amsterdam/'
+  twitter: '@alvarosabu'
+  twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 ```
 With properties            | Without properties 
@@ -217,7 +219,7 @@ This theme provides the following components:
 To use it you just need to add it to your `examples.md` like this:
 
 ```markdown
-Say hi at <fancy-link href="https://twitter.com/alvaro_code">@alvaro_code</fancy-link>
+Say hi at <fancy-link href="https://twitter.com/alvarosabu">@alvarosabu</fancy-link>
 ```
 
 ### Console window `the-console`
