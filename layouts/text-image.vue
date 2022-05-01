@@ -16,6 +16,9 @@
           :src="$attrs.media"
           class="rounded-lg shadow-lg object-cover z-10"
         />
+        <figcaption class="mt-2 text-xs w-full">
+          {{ $attrs.caption }}
+        </figcaption>
       </figure>
     </div>
   </div>
