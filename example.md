@@ -2,11 +2,12 @@
 theme: none
 colorSchema: 'auto'
 layout: intro
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+themeConfig:
+  logoHeader: '/logo.svg'
+  eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
+  eventUrl: 'https://vuejs.amsterdam/'
+  twitter: '@alvarosabu'
+  twitterUrl: 'https://twitter.com/alvarosabu'
 
 ---
 
@@ -24,9 +25,9 @@ twitterUrl: 'https://twitter.com/alvaro_code'
 layout: presenter
 eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
 eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
+twitter: '@alvarosabu'
 
-twitterUrl: 'https://twitter.com/alvaro_code'
+twitterUrl: 'https://twitter.com/alvarosabu'
 presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370075/as-portfolio/alvaro_saburido.jpg'
 ---
 
@@ -37,16 +38,12 @@ Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/"
 - Dev Advocate
 - I often write at <fancy-link href="https://dev.to/alvarosaburido">@alvarosaburido</fancy-link>
 - Portfolio <fancy-link href="https://alvarosaburido.dev">alvarosaburido.dev</fancy-link>
-- Say hi at <fancy-link href="https://twitter.com/alvaro_code">@alvaro_code</fancy-link>
+- Say hi at <fancy-link href="https://twitter.com/alvarosabu">@alvarosabu</fancy-link>
 
 ---
 layout: text-image
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-
-twitterUrl: 'https://twitter.com/alvaro_code'
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
+caption: 'I am a penguin'
 ---
 
 # This is a peguin
@@ -59,11 +56,6 @@ Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa me
 ---
 layout: text-image
 reverse: true
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-
-twitterUrl: 'https://twitter.com/alvaro_code'
 media: 'https://media.giphy.com/media/VkMV9TldsPd28/giphy.gif'
 ---
 
@@ -106,11 +98,7 @@ Hover on the bottom-left corner to see the navigation's controls panel
 
 ---
 layout: new-section
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+
 ---
 
 # New wild section appeared
@@ -120,8 +108,8 @@ twitterUrl: 'https://twitter.com/alvaro_code'
 ---
 eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
 eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+twitter: '@alvarosabu'
+twitterUrl: 'https://twitter.com/alvarosabu'
 
 ---
 
@@ -146,11 +134,7 @@ app.use(VueDynamicForms);
 
 ---
 layout: text-window
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+
 ---
 
 # Consoles
@@ -179,8 +163,8 @@ reverse: true
 logoHeader: '/logo.svg'
 eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
 eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
+twitter: '@alvarosabu'
+twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 
 # Embedded stuff
@@ -197,13 +181,7 @@ Use window to show a live demo of any page, or even a sub component!
 </iframe>
 </div>
 ---
-logoHeader: '/logo.svg'
-eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
-eventUrl: 'https://vuejs.amsterdam/'
-twitter: '@alvaro_code'
-twitterUrl: 'https://twitter.com/alvaro_code'
-presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370075/as-portfolio/alvaro_saburido.jpg'
-class: 'text-center align-self-center justify-self-center'
+class: 'grid text-center align-self-center justify-self-center'
 ---
 
 # Gracias totales
