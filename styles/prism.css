@@ -68,7 +68,8 @@ pre[class*='language-'] {
 
 :not(pre) > code:before,
 :not(pre) > code:after {
-  content: '`';
+  content: '';
+  padding: 0 0.2em;
   opacity: 0.5;
 }
 
