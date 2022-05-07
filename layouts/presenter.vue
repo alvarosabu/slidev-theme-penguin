@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-main slidev-layout">
-    <div class="flex items-center">
+  <div class="bg-main slidev-layout flex">
+    <div class="flex items-center w-full">
       <figure class="w-1/2">
         <TheDots />
         <img
