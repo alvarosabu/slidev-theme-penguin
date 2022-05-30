@@ -41,6 +41,16 @@ Add the following frontmatter to your `slides.md`. Start Slidev then it will pro
 theme: <b>penguin</b>
 ---</code></pre>
 
+It is also required to install the npm package `vite-svg-loader` and adding a vite.config.js in your project with the following:
+
+```js
+import svgLoader from 'vite-svg-loader'
+
+export default {
+  plugins: [svgLoader()],
+}
+```
+
 Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 ## Layouts
