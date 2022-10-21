@@ -7,14 +7,14 @@
 
 /* general css here */
 
-html:not(.dark) {
+html:not(.dark) #slide-content {
   /* light mode css here */
   @apply text-primary;
 }
 
-html.dark {
+.dark #slide-content {
   /* dark mode css here */
-  @apply text-white;
+  @apply bg-primary-600;
 
   h1 {
     @apply text-secondary;
@@ -32,7 +32,11 @@ html.dark {
   h2,
   h3,
   h4 {
-    @apply font-title;
+    @apply font-display;
+  }
+
+  a {
+    @apply text-secondary-400 hover:text-secondary-500 dark:text-gray-50 dark:hover:text-secondary-500 transition ease-in-out duration-300;
   }
 
   .prose > ul {
@@ -56,10 +60,6 @@ html.dark {
     li::before {
       content: '🐧 ';
     }
-  }
-
-  a {
-    @apply text-primary-500 hover:text-secondary-500 dark:text-gray-50 dark:hover:text-secondary-500 transition ease-in-out duration-300;
   }
 
   code {
