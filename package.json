@@ -49,6 +49,7 @@
     "@alvarosabu/prettier-config": "^1.2.0",
     "@alvarosabu/ui": "^2.17.0",
     "@iconify-json/logos": "^1.1.17",
+    "@iconify-json/simple-icons": "^1.1.31",
     "@slidev/cli": "0.36.7",
     "playwright-chromium": "^1.27.1",
     "sass": "^1.55.0",

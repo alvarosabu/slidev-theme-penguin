@@ -7,7 +7,7 @@
 
 /* general css here */
 
-html:not(.dark) {
+html:not(.dark) #slide-content {
   /* light mode css here */
   @apply text-primary;
 }
@@ -35,6 +35,10 @@ html:not(.dark) {
     @apply font-display;
   }
 
+  a {
+    @apply text-secondary-400 hover:text-secondary-500 dark:text-gray-50 dark:hover:text-secondary-500 transition ease-in-out duration-300;
+  }
+
   .prose > ul {
     list-style: none;
 
@@ -56,10 +60,6 @@ html:not(.dark) {
     li::before {
       content: '🐧 ';
     }
-  }
-
-  a {
-    @apply text-primary-500 hover:text-secondary-500 dark:text-gray-50 dark:hover:text-secondary-500 transition ease-in-out duration-300;
   }
 
   code {

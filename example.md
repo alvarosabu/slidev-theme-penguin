@@ -29,17 +29,19 @@ eventUrl: 'https://vuejs.amsterdam/'
 twitter: '@alvarosabu'
 
 twitterUrl: 'https://twitter.com/alvarosabu'
-presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1622370075/as-portfolio/alvaro_saburido.jpg'
+presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1666351649/b_w_egfb4v.png'
 ---
 
-# Alvaro Saburido Rodriguez
+# Alvaro Saburido
 
-Senior Front-end Engineer at <fancy-link  href="https://bcn.porsche.digital/en/" favicon="https://www.google.com/s2/favicons?domain=porsche.com" >Porsche Digital</fancy-link>
+FE Tech Lead Engineer at <a  href="https://bcn.porsche.digital/en/" favicon="https://www.google.com/s2/favicons?domain=porsche.com" ><simple-icons-porsche mr-1/>Porsche Digital</a>
 
-- Dev Advocate
-- I often write at <fancy-link href="https://dev.to/alvarosaburido">@alvarosaburido</fancy-link>
-- Portfolio <fancy-link href="https://alvarosaburido.dev">alvarosaburido.dev</fancy-link>
-- Say hi at <fancy-link href="https://twitter.com/alvarosabu">@alvarosabu</fancy-link>
+- Barcelona, Spain 🇪🇸
+- <a href="https://www.storyblok.com/"><logos-storyblok-icon /> Storyblok</a> Ambassador
+- I often write at <a href="https://dev.to/alvarosaburido"> dev.to/@alvarosabu</a>
+- Creating content on <a href="https://www.youtube.com/channel/AlvaroDevLabs" ><logos-youtube-icon mr-1 />AlvaroDevLabs</a>
+- Blog & Portfolio <a href="https://alvarosaburido.dev">alvarosaburido.dev</a>
+- Say hi at <a href="https://twitter.com/alvarosabu"><logos-twitter mr-1 />@alvarosabu</a>
 
 ---
 layout: text-image
@@ -49,9 +51,9 @@ caption: 'I am a penguin'
 
 # This is a peguin
 
-Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta mierdaa menool ladilla chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? 
+Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? 
 
-- Cacique panita sit Se prendio el peo labia gravida Praesent tequeño. 
+- Cacique panita sit Se prendio la labia gravida Praesent tequeño. 
 - Qué paso mi pana?! elit parchita molleja aguacate vergación, háblame mollejúo chamito est burda mauris morbi;
 
 ---

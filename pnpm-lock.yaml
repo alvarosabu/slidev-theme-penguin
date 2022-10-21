@@ -4,6 +4,7 @@ specifiers:
   '@alvarosabu/prettier-config': ^1.2.0
   '@alvarosabu/ui': ^2.17.0
   '@iconify-json/logos': ^1.1.17
+  '@iconify-json/simple-icons': ^1.1.31
   '@slidev/cli': 0.36.7
   '@slidev/types': ^0.36.7
   playwright-chromium: ^1.27.1
@@ -21,6 +22,7 @@ devDependencies:
   '@alvarosabu/prettier-config': 1.2.0
   '@alvarosabu/ui': 2.17.0
   '@iconify-json/logos': 1.1.17
+  '@iconify-json/simple-icons': 1.1.31
   '@slidev/cli': 0.36.7_tj66i7bdromnffjh4flgyijrji
   playwright-chromium: 1.27.1
   sass: 1.55.0
@@ -329,6 +331,12 @@ packages:
 
   /@iconify-json/ph/1.1.2:
     resolution: {integrity: sha512-NuTdtt/UmuxIHS4hfdyv3BP5JiWikNkr81hFHXDScXlH0GUMdRSY/B5T9vDvbXDY/esMLFnIAXoFVDLsGinhpw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/simple-icons/1.1.31:
+    resolution: {integrity: sha512-+bXzPVVZQIGdzCGDt+DtIXHtKZRTxrQPa73EKG8K0Kx+z5w8odI+Rcbj91/P53EqR/Y1VTOnkism/zdaCLbduA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
