@@ -2,6 +2,8 @@
 theme: ./
 colorSchema: 'auto'
 layout: intro
+# https://sli.dev/custom/highlighters.html
+highlighter: shiki
 themeConfig:
   logoHeader: '/logo.svg'
   eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'

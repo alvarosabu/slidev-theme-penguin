@@ -5,10 +5,7 @@
         <slot name="default" />
       </div>
       <figure class="relative flex flex-col justify-center">
-        <Zigzags
-          class="absolute transform scale-75 -bottom-20 -right-16"
-          :class="{ 'left-0 bottom-4': $attrs.reverse }"
-        />
+        <AsGraphic type="zigzag" absolute bottom-4 right-0 />
         <img :src="$attrs.media" class="rounded-lg shadow-lg object-cover z-10" />
         <figcaption class="mt-2 text-xs w-full">
           {{ $attrs.caption }}
