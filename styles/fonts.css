@@ -3,7 +3,6 @@
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-  src: local('Gilroy ExtraBold'),
-    url('/fonts/Gilroy-ExtraBold.otf') format('opentype'),
+  src: local('Gilroy ExtraBold'), url('/fonts/Gilroy-ExtraBold.otf') format('opentype'),
     url('/fonts/Gilroy-ExtraBold.woff') format('woff');
 }

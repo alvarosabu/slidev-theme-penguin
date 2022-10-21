@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-main slidev-layout">
+  <div class="slidev-layout">
     <div class="flex items-center">
       <figure class="w-1/2">
         <TheDots />

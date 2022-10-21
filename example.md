@@ -1,5 +1,5 @@
 ---
-theme: none
+theme: ./
 colorSchema: 'auto'
 layout: intro
 themeConfig:
@@ -8,8 +8,9 @@ themeConfig:
   eventUrl: 'https://vuejs.amsterdam/'
   twitter: '@alvarosabu'
   twitterUrl: 'https://twitter.com/alvarosabu'
-
+css: unocss
 ---
+
 
 # A penguin Slidev Theme
 

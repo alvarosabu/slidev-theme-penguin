@@ -41,15 +41,17 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.30.3",
-    "prism-theme-vars": "^0.2.2",
-    "vite-svg-loader": "^3.3.0"
+    "@slidev/types": "^0.36.7",
+    "prism-theme-vars": "^0.2.4",
+    "vite-svg-loader": "^3.6.0"
   },
   "devDependencies": {
-    "@alvarosabu/prettier-config": "^1.1.0",
-    "@iconify-json/logos": "^1.1.5",
-    "@slidev/cli": "0.30.3",
-    "playwright-chromium": "^1.17.1",
-    "semantic-release": "^19.0.2"
+    "@alvarosabu/prettier-config": "^1.2.0",
+    "@alvarosabu/ui": "^2.17.0",
+    "@iconify-json/logos": "^1.1.17",
+    "@slidev/cli": "0.36.7",
+    "playwright-chromium": "^1.27.1",
+    "sass": "^1.55.0",
+    "semantic-release": "^19.0.5"
   }
 }

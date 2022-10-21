@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-main slidev-layout intro grid">
+  <div class="slidev-layout intro grid">
     <LayoutHeader />
     <CornerCurves class="absolute left-0 top-0 transform rotate-90" />
     <div class="flex flex-col justify-center text-center">
@@ -12,7 +12,7 @@
 <style>
 .slidev-layout.intro {
   h1 {
-    @apply text-6xl leading-20 font-title font-extrabold;
+    @apply text-6xl leading-20 font-display font-extrabold text-primary;
   }
 
   h1 + p {
