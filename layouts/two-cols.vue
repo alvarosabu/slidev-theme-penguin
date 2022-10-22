@@ -1,10 +1,10 @@
 <template>
   <div class="slidev-layout">
-    <div class="grid grid-cols-2 gap-16">
-      <div class="prose">
+    <div class="grid grid-cols-2 gap-16 prose">
+      <div>
         <slot name="default" />
       </div>
-      <div class="prose">
+      <div>
         <slot name="right"></slot>
       </div>
     </div>
