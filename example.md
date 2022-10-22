@@ -136,6 +136,36 @@ export const app = createApp(App);
 
 app.use(VueDynamicForms);
 ```
+--- 
+layout: two-cols
+--- 
+Awiwiiw
+
+```ts
+// main.ts
+
+import { createApp } from 'vue';
+import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
+
+const VueDynamicForms = createDynamicForms({
+  // Global Options go here
+});
+
+export const app = createApp(App);
+
+app.use(VueDynamicForms);
+```
+
+::right::
+
+```vue
+<template>
+  <div>
+    <TheToolbar />
+    <slot />
+  </div>
+</template>
+```
 
 ---
 layout: text-window
