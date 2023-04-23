@@ -36,10 +36,9 @@ presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1666351
 
 # Alvaro Saburido
 
-FE Tech Lead Engineer at <a  href="https://bcn.porsche.digital/en/" favicon="https://www.google.com/s2/favicons?domain=porsche.com" ><simple-icons-porsche mr-1/>Porsche Digital</a>
+DevRel at <a  href="https://www.storyblok.com/"><logos-storyblok-icon  mr-1/>Storyblok</a>
 
 - Barcelona, Spain 🇪🇸
-- <a href="https://www.storyblok.com/"><logos-storyblok-icon /> Storyblok</a> Ambassador
 - I often write at <a href="https://dev.to/alvarosaburido"> dev.to/@alvarosabu</a>
 - Creating content on <a href="https://www.youtube.com/channel/AlvaroDevLabs" ><logos-youtube-icon mr-1 />AlvaroDevLabs</a>
 - Blog & Portfolio <a href="https://alvarosaburido.dev">alvarosaburido.dev</a>

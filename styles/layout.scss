@@ -9,7 +9,7 @@
 
 html:not(.dark) #slide-content {
   /* light mode css here */
-  @apply text-primary;
+  @apply bg-white text-primary;
 }
 
 .dark #slide-content {

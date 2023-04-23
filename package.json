@@ -40,18 +40,18 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^0.36.7",
+    "@alvarosabu/ui": "^2.20.0",
+    "@slidev/types": "^0.40.14",
     "prism-theme-vars": "^0.2.4",
-    "vite-svg-loader": "^3.6.0",
-    "@alvarosabu/ui": "^2.17.0"
+    "vite-svg-loader": "^4.0.0"
   },
   "devDependencies": {
-    "@alvarosabu/prettier-config": "^1.2.0",
-    "@iconify-json/logos": "^1.1.17",
-    "@iconify-json/simple-icons": "^1.1.31",
-    "@slidev/cli": "0.36.7",
-    "playwright-chromium": "^1.27.1",
-    "sass": "^1.55.0",
-    "semantic-release": "^19.0.5"
+    "@alvarosabu/prettier-config": "^1.3.0",
+    "@iconify-json/logos": "^1.1.25",
+    "@iconify-json/simple-icons": "^1.1.49",
+    "@slidev/cli": "0.40.14",
+    "playwright-chromium": "^1.32.3",
+    "sass": "^1.62.0",
+    "semantic-release": "^21.0.1"
   }
 }
