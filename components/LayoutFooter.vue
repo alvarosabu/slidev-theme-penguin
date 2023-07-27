@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { defineProps, computed } from 'vue'
-import { useNow } from '@vueuse/core'
+import { computed } from "vue";
+import { useNow } from "@vueuse/core";
 
-const props = defineProps({
+defineProps({
   eventLogo: {
     type: String,
   },
@@ -15,25 +15,16 @@ const props = defineProps({
   twitterUrl: {
     type: String,
   },
-})
+});
 
-const { now } = useNow()
+const { now } = useNow();
 
-const date = computed(() => now?.value.toLocaleDateString('en-US'))
+const date = computed(() => now?.value.toLocaleDateString("en-US"));
 </script>
 <template>
   <footer
     v-if="eventLogo || twitter"
-    class="
-      mt-auto
-      flex
-      justify-between
-      items-center
-      w-full
-      text-primary
-      dark:text-white
-      z-10
-    "
+    class="mt-auto flex justify-between items-center w-full text-primary dark:text-white z-10"
   >
     <div class="mb-0 flex items-center">
       <a :href="eventUrl" target="_blank"

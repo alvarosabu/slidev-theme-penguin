@@ -1,15 +1,15 @@
 :root {
-  // default theme color
-  // can be overrided by uses `themeConfig` option
   --slidev-theme-primary: #3e5166;
   --slidev-theme-secondary: #34d399;
 }
 
-/* general css here */
-
 html:not(.dark) #slide-content {
   /* light mode css here */
   @apply bg-white text-primary;
+}
+
+#slide-container {
+  height: 100% !important;
 }
 
 .dark #slide-content {
@@ -36,7 +36,7 @@ html:not(.dark) #slide-content {
   h2,
   h3,
   h4 {
-    @apply font-display;
+    @apply font-display font-bold;
   }
 
   a {
@@ -68,7 +68,7 @@ html:not(.dark) #slide-content {
     }
 
     li::before {
-      content: '🐧 ';
+      content: "🐧 ";
     }
   }
 
