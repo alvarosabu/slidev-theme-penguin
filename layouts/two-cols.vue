@@ -5,7 +5,7 @@
         <slot name="default" />
       </div>
       <div class="prose">
-        <slot name="right"></slot>
+        <slot name="right" />
       </div>
     </div>
   </div>

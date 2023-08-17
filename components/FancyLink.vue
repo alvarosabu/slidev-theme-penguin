@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { defineProps, computed } from 'vue'
+import { computed } from 'vue'
+
 const props = defineProps({
   href: {
     type: String,
@@ -22,8 +23,13 @@ const styles = computed(() => ({
   paddingLeft: '20px',
 }))
 </script>
+
 <template>
-  <a :href="href" class="fancy-link mx-2 text-sm" :style="styles"><slot /></a>
+  <a
+    :href="href"
+    class="fancy-link mx-2 text-sm"
+    :style="styles"
+  ><slot /></a>
 </template>
 
 <style scoped>

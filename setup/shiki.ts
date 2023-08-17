@@ -1,8 +1,6 @@
 /* ./setup/shiki.ts */
 import { defineShikiSetup } from '@slidev/types'
 
-export default defineShikiSetup(() => {
-  return {
-    theme: 'css-variables',
-  }
-})
+export default defineShikiSetup(() => ({
+  theme: 'css-variables',
+}))

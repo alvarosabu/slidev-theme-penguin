@@ -8,6 +8,6 @@
     <img
       :src="$slidev.themeConfigs.logoHeader"
       class="w-16 h-16 object-contain"
-    />
+    >
   </header>
 </template>

@@ -1,13 +1,8 @@
 {
   "name": "slidev-theme-penguin",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Penguin theme for Slidev",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev>",
-  "keywords": [
-    "slidev-theme",
-    "slidev",
-    "slidev-penguin"
-  ],
   "license": "MIT",
   "homepage": "https://penguin-theme.alvarosaburido.dev/",
   "repository": {
@@ -15,6 +10,11 @@
     "url": "git+https://github.com/alvarosaburido/slidev-theme-penguin.git"
   },
   "bugs": "https://github.com/alvarosaburido/slidev-theme-penguin/issues",
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "slidev-penguin"
+  ],
   "slidev": {
     "colorSchema": "both",
     "highlighter": "shiki",
@@ -41,11 +41,12 @@
     "vite-svg-loader": "^4.0.0"
   },
   "devDependencies": {
+    "@alvarosabu/eslint-config-vue": "^0.4.0",
     "@iconify-json/la": "^1.1.5",
     "@iconify-json/logos": "^1.1.34",
     "@iconify-json/simple-icons": "^1.1.66",
     "@release-it/conventional-changelog": "^7.0.0",
-    "@slidev/cli": "0.42.8",
+    "@slidev/cli": "0.42.5",
     "playwright-chromium": "^1.37.0",
     "release-it": "^16.1.5",
     "sass": "^1.65.1"

@@ -4,6 +4,7 @@ colorSchema: 'auto'
 layout: intro
 # https://sli.dev/custom/highlighters.html
 highlighter: shiki
+title: Slidev Penguin Theme
 themeConfig:
   logoHeader: '/logo.svg'
   eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
@@ -124,16 +125,16 @@ Use code snippets and get the highlighting directly!
 ```ts
 // main.ts
 
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
+import { createApp } from 'vue'
+import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
 
 const VueDynamicForms = createDynamicForms({
   // Global Options go here
-});
+})
 
-export const app = createApp(App);
+export const app = createApp(App)
 
-app.use(VueDynamicForms);
+app.use(VueDynamicForms)
 ```
 --- 
 layout: two-cols
@@ -143,16 +144,16 @@ Awiwiiw
 ```ts
 // main.ts
 
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
+import { createApp } from 'vue'
+import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
 
 const VueDynamicForms = createDynamicForms({
   // Global Options go here
-});
+})
 
-export const app = createApp(App);
+export const app = createApp(App)
 
-app.use(VueDynamicForms);
+app.use(VueDynamicForms)
 ```
 
 ::right::
@@ -180,16 +181,16 @@ Use code snippets and get the highlighting directly into a nice looking window!
 ```ts
 // main.ts
 
-import { createApp } from 'vue';
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms';
+import { createApp } from 'vue'
+import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
 
 const VueDynamicForms = createDynamicForms({
   // Global Options go here
-});
+})
 
-export const app = createApp(App);
+export const app = createApp(App)
 
-app.use(VueDynamicForms);
+app.use(VueDynamicForms)
 ```
 ---
 layout: text-window
