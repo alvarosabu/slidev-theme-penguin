@@ -1,5 +1,13 @@
 
 
+## [2.0.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.0.0...v2.0.2) (2023-08-17)
+
+
+### Bug Fixes
+
+* fallback slidev version to 42.5 ([e766fdc](https://github.com/alvarosaburido/slidev-theme-penguin/commit/e766fdc428bbc9bded52ff805c60a79af4ba1f5e))
+* update slidev cli version for unplugin markdown ([735dc08](https://github.com/alvarosaburido/slidev-theme-penguin/commit/735dc08b9f8a368d5d9606340fd82cfef718e521))
+
 ## [2.0.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v1.7.1...v2.0.0) (2023-08-17)
 
 
