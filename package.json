@@ -35,7 +35,7 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@alvarosabu/ui": "3.0.0-alpha.12",
+    "@alvarosabu/ui": "3.0.0-alpha.13",
     "@slidev/types": "^0.42.5",
     "prism-theme-vars": "^0.2.4",
     "vite-svg-loader": "^4.0.0"

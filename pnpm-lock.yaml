@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@alvarosabu/ui':
-    specifier: 3.0.0-alpha.12
-    version: 3.0.0-alpha.12
+    specifier: 3.0.0-alpha.13
+    version: 3.0.0-alpha.13
   '@slidev/types':
     specifier: ^0.42.5
     version: 0.42.5
@@ -46,8 +46,8 @@ devDependencies:
 
 packages:
 
-  /@alvarosabu/ui@3.0.0-alpha.12:
-    resolution: {integrity: sha512-UtSOCylLtUX7Fkt6KB4m2Xkf9lFMcztTzmFRzEWhX3gG1OqSUzWaOCtyV8s97yJTVmoIWtqr6UOcWmeomq2rzA==}
+  /@alvarosabu/ui@3.0.0-alpha.13:
+    resolution: {integrity: sha512-KvGNUGn8zqRZzECZ+l25RMLk8w81GwxfyBt/UunR7kfpx6fJKIQx/kl+geb+DqRQai1GKycNUc05LoF7Q/D+TA==}
     dependencies:
       '@vueuse/core': 10.2.1(vue@3.3.4)
       sass: 1.64.1

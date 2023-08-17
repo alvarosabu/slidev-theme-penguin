@@ -27,6 +27,7 @@ html:not(.dark) #slide-content {
 
 .slidev-layout {
   @apply relative h-full;
+  font-size: 16px;
 
   h1 {
     @apply mb-8 mt-0;
@@ -83,6 +84,28 @@ html:not(.dark) #slide-content {
     font-size: 0.65rem !important;
   }
 
+  :not(pre) > code {
+    font-size: 0.9em;
+    background: transparent;
+    @apply font-light py-0.5 rounded;
+  }
+
+  :not(pre) > code:before,
+  :not(pre) > code:after {
+    content: "";
+    padding: 0 0.2em;
+    opacity: 0.5;
+  }
+
+  :not(pre) > code:before {
+    margin-right: -0.08em;
+  }
+
+  span[style*="color: var(--shiki-token-keyword)"],
+  span[style*="color: var(--shiki-token-function)"] {
+    font-style: italic;
+  }
+
   .slidev-code-wrapper > pre {
     max-width: 400px;
   }
@@ -94,4 +117,34 @@ html:not(.dark) #slide-content {
   .dishonored {
     opacity: 0.5;
   }
+}
+
+:root {
+  --shiki-color-text: #88e5c3;
+  --shiki-color-background: #3e5166;
+  --shiki-token-constant: #7aceaf;
+  --shiki-token-string: #f8e4aa;
+  --shiki-token-comment: #a0ada0;
+  --shiki-token-keyword: #ff80bf;
+  --shiki-token-parameter: #f8e4aa;
+  --shiki-token-function: #e5f1af;
+  --shiki-token-string-expression: #f8e4aa;
+  --shiki-token-punctuation: #fbfbfb;
+  --shiki-token-link: #b3f9df;
+}
+
+.dark {
+  --shiki-color-background: #273341;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --shiki-color-background: #273341;
+  }
+}
+pre.shiki {
+  @apply p-4 rounded overflow-scroll;
+}
+code {
+  @apply font-mono;
 }
