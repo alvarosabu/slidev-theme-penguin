@@ -1,5 +1,13 @@
 
 
+## [2.1.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.0.2...v2.1.0) (2023-08-18)
+
+
+### Features
+
+* replaced old pixel logo for new 3D avatar ([ef24c3e](https://github.com/alvarosaburido/slidev-theme-penguin/commit/ef24c3e313acf973e246dccbb22f352d0dcab732))
+* unocss is now default ([e58825c](https://github.com/alvarosaburido/slidev-theme-penguin/commit/e58825c06b1797ce7d8bb739975feb916b13966b))
+
 ## [2.0.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.0.0...v2.0.2) (2023-08-17)
 
 
