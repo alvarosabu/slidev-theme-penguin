@@ -6,7 +6,7 @@ layout: intro
 highlighter: shiki
 title: Slidev Penguin Theme
 themeConfig:
-  logoHeader: '/logo.svg'
+  logoHeader: '/avatar.png'
   eventLogo: 'https://img2.storyblok.com/352x0/f/84560/2388x414/23d8eb4b8d/vue-amsterdam-with-name.png'
   eventUrl: 'https://vuejs.amsterdam/'
   twitter: '@alvarosabu'
