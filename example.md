@@ -11,7 +11,6 @@ themeConfig:
   eventUrl: 'https://vuejs.amsterdam/'
   twitter: '@alvarosabu'
   twitterUrl: 'https://twitter.com/alvarosabu'
-css: unocss
 ---
 
 
