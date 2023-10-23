@@ -8,10 +8,6 @@ html:not(.dark) #slide-content {
   @apply bg-white text-primary;
 }
 
-#slide-container {
-  height: 100% !important;
-}
-
 .dark #slide-content {
   /* dark mode css here */
   @apply bg-primary-600 text-light-300;
@@ -106,10 +102,6 @@ html:not(.dark) #slide-content {
     font-style: italic;
   }
 
-  .slidev-code-wrapper > pre {
-    max-width: 400px;
-  }
-
   iframe label.btn {
     display: none;
   }
@@ -119,31 +111,8 @@ html:not(.dark) #slide-content {
   }
 }
 
-:root {
-  --shiki-color-text: #88e5c3;
-  --shiki-color-background: #3e5166;
-  --shiki-token-constant: #7aceaf;
-  --shiki-token-string: #f8e4aa;
-  --shiki-token-comment: #a0ada0;
-  --shiki-token-keyword: #ff80bf;
-  --shiki-token-parameter: #f8e4aa;
-  --shiki-token-function: #e5f1af;
-  --shiki-token-string-expression: #f8e4aa;
-  --shiki-token-punctuation: #fbfbfb;
-  --shiki-token-link: #b3f9df;
-}
-
-.dark {
-  --shiki-color-background: #273341;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --shiki-color-background: #273341;
-  }
-}
 pre.shiki {
-  @apply p-4 rounded overflow-scroll;
+  @apply p-4 rounded;
 }
 code {
   @apply font-mono;
