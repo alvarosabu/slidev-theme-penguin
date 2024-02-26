@@ -1,5 +1,13 @@
 
 
+## [2.1.1](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.0...v2.1.1) (2024-02-26)
+
+
+### Bug Fixes
+
+* corrected console window width ([c173e15](https://github.com/alvarosaburido/slidev-theme-penguin/commit/c173e15394c086b1ec3ca9f9fffa02806b993f56))
+* updated code font-size ([12968e5](https://github.com/alvarosaburido/slidev-theme-penguin/commit/12968e51b6f72f5e3755e7d2bc4724532a61a9ef))
+
 ## [2.1.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.0.2...v2.1.0) (2023-08-18)
 
 
