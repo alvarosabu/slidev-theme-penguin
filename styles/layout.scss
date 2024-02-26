@@ -75,13 +75,13 @@ html:not(.dark) #slide-content {
 
   pre {
     @apply font-bold;
-    font-size: 0.65rem !important;
+    font-size: 0.875rem !important;
   }
 
   code {
     @apply text-secondary-300;
 
-    font-size: 0.65rem !important;
+    font-size: 0.875rem !important;
   }
 
   :not(pre) > code {
