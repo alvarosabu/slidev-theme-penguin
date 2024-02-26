@@ -1,5 +1,12 @@
 
 
+## [2.1.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.1...v2.1.2) (2024-02-26)
+
+
+### Bug Fixes
+
+* add scroll to big window console codeblocks ([7c9b81b](https://github.com/alvarosaburido/slidev-theme-penguin/commit/7c9b81b8c18e14e9849ec3a65d80d2ce08c3a441))
+
 ## [2.1.1](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.0...v2.1.1) (2024-02-26)
 
 
