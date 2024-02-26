@@ -3,7 +3,7 @@ theme: ./
 colorSchema: 'auto'
 layout: intro
 # https://sli.dev/custom/highlighters.html
-highlighter: shiki
+highlighter: shikiji
 title: Slidev Penguin Theme
 themeConfig:
   logoHeader: '/avatar.png'
