@@ -1,5 +1,13 @@
 
 
+## [2.2.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.2...v2.2.0) (2024-03-23)
+
+
+### Features
+
+* update to latest slidev ([3b6e3d3](https://github.com/alvarosaburido/slidev-theme-penguin/commit/3b6e3d3bf594039687924b1b757ab8ecdb61a403))
+* updated to new slidev version ([51dcc06](https://github.com/alvarosaburido/slidev-theme-penguin/commit/51dcc069334b8b2610f3931959dec12da8d5592f))
+
 ## [2.1.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.1...v2.1.2) (2024-02-26)
 
 
