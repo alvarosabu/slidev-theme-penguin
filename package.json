@@ -35,20 +35,20 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@alvarosabu/ui": "3.0.0-alpha.13",
-    "@slidev/types": "^0.42.8",
+    "@alvarosabu/ui": "3.0.0-alpha.16",
+    "@slidev/types": "^0.48.7",
     "prism-theme-vars": "^0.2.4",
-    "vite-svg-loader": "^4.0.0"
+    "vite-svg-loader": "^5.1.0"
   },
   "devDependencies": {
     "@alvarosabu/eslint-config-vue": "^0.4.0",
-    "@iconify-json/la": "^1.1.5",
-    "@iconify-json/logos": "^1.1.34",
-    "@iconify-json/simple-icons": "^1.1.66",
-    "@release-it/conventional-changelog": "^7.0.0",
-    "@slidev/cli": "0.42.5",
-    "playwright-chromium": "^1.37.0",
-    "release-it": "^16.1.5",
-    "sass": "^1.65.1"
+    "@iconify-json/la": "^1.1.8",
+    "@iconify-json/logos": "^1.1.42",
+    "@iconify-json/simple-icons": "^1.1.96",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@slidev/cli": "0.48.7",
+    "playwright-chromium": "^1.42.1",
+    "release-it": "^17.1.1",
+    "sass": "^1.72.0"
   }
 }
