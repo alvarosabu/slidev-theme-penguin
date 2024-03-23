@@ -121,48 +121,64 @@ twitterUrl: 'https://twitter.com/alvarosabu'
 
 Use code snippets and get the highlighting directly!
 
-```ts
-// main.ts
+```vue
+<script setup>
+import { TresCanvas } from '@tresjs/core'
+</script>
 
-import { createApp } from 'vue'
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
-
-const VueDynamicForms = createDynamicForms({
-  // Global Options go here
-})
-
-export const app = createApp(App)
-
-app.use(VueDynamicForms)
+<template>
+  <TresCanvas 
+    clear-color=”#82DBC5” 
+    window-size
+  >
+    <TresPerspectiveCamera />
+    <TresMesh 
+      @click=”onClick”
+     >
+      <TresBoxGeometry :args="[1, 1, 1]" />
+      <TresMeshNormalMaterial />
+    </TresMesh>
+  </TresCanvas>
+</template>
 ```
+
 --- 
 layout: two-cols
 --- 
 Awiwiiw
 
-```ts
-// main.ts
+```vue
+// Model.vue
+<script setup lang="ts">
+import { useAnimations, useGLTF } from '@tresjs/cientos'
 
-import { createApp } from 'vue'
-import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
+const { scene: model, animations } = await useGLTF(
+  'models/ugly-bunny.gltf',
+)
 
-const VueDynamicForms = createDynamicForms({
-  // Global Options go here
-})
+const { actions, mixer } = useAnimations(animations, model)
+const currentAction = ref(actions.Greeting)
+currentAction.value.play()
+</script>
 
-export const app = createApp(App)
-
-app.use(VueDynamicForms)
+<template>
+  <primitive :object="model" />
+</template>
 ```
 
 ::right::
 
 ```vue
 <template>
-  <div>
-    <TheToolbar />
-    <slot />
-  </div>
+  <TresCanvas 
+    clear-color="”#82DBC5”" 
+    window-size
+  >
+    <TresPerspectiveCamera />
+    <Suspense>
+      <Model />
+    </Suspense>
+  </TresCanvas>
 </template>
 ```
 

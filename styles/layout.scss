@@ -74,7 +74,6 @@ html:not(.dark) #slide-content {
   }
 
   pre {
-    @apply font-bold;
     font-size: 0.875rem !important;
   }
 
@@ -106,7 +105,7 @@ html:not(.dark) #slide-content {
     font-style: italic;
   }
 
-  .slidev-code-wrapper > pre {
+  .slidev-code-wrapper  {
     max-width: 400px;
   }
 
