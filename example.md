@@ -13,7 +13,6 @@ themeConfig:
   twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 
-
 # A penguin Slidev Theme
 
 🐧 slides for developers
@@ -52,9 +51,9 @@ caption: 'I am a penguin'
 
 # This is a peguin 🐧
 
-Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita? 
+Arepa ipsum dolor amet jalabola! aenean sit tequeños se prendio esta chamito;? Nisl nojoda eu amet in? Nisl cuál es la guachafita ni lava ni presta la batea háblame cloro gravida sifrino macundal panita; Sed háblame cloro nunc empanada ac coroto Na webona vladimil parchita?
 
-- Cacique panita sit Se prendio la labia gravida Praesent tequeño. 
+- Cacique panita sit Se prendio la labia gravida Praesent tequeño.
 - Qué paso mi pana?! elit parchita molleja aguacate vergación, háblame mollejúo chamito est burda mauris morbi;
 
 ---
@@ -127,14 +126,14 @@ import { TresCanvas } from '@tresjs/core'
 </script>
 
 <template>
-  <TresCanvas 
-    clear-color=”#82DBC5” 
+  <TresCanvas
+    clear-color="”#82DBC5”"
     window-size
   >
     <TresPerspectiveCamera />
-    <TresMesh 
-      @click=”onClick”
-     >
+    <TresMesh
+      @click="onClick"
+    >
       <TresBoxGeometry :args="[1, 1, 1]" />
       <TresMeshNormalMaterial />
     </TresMesh>
@@ -142,9 +141,9 @@ import { TresCanvas } from '@tresjs/core'
 </template>
 ```
 
---- 
+---
 layout: two-cols
---- 
+---
 Awiwiiw
 
 ```vue
@@ -170,8 +169,8 @@ currentAction.value.play()
 
 ```vue
 <template>
-  <TresCanvas 
-    clear-color="”#82DBC5”" 
+  <TresCanvas
+    clear-color="”#82DBC5”"
     window-size
   >
     <TresPerspectiveCamera />

@@ -69,7 +69,7 @@ html:not(.dark) #slide-content {
     }
 
     li::before {
-      content: "🐧 ";
+      content: '🐧 ';
     }
   }
 
@@ -91,7 +91,7 @@ html:not(.dark) #slide-content {
 
   :not(pre) > code:before,
   :not(pre) > code:after {
-    content: "";
+    content: '';
     padding: 0 0.2em;
     opacity: 0.5;
   }
@@ -100,12 +100,12 @@ html:not(.dark) #slide-content {
     margin-right: -0.08em;
   }
 
-  span[style*="color: var(--shiki-token-keyword)"],
-  span[style*="color: var(--shiki-token-function)"] {
+  span[style*='color: var(--shiki-token-keyword)'],
+  span[style*='color: var(--shiki-token-function)'] {
     font-style: italic;
   }
 
-  .slidev-code-wrapper  {
+  .slidev-code-wrapper {
     max-width: 400px;
   }
 

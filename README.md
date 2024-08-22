@@ -16,7 +16,6 @@ run `npm run dev` to check out the slides for more details of how to start writi
 put some screenshots here to demonstrate your theme,
 -->
 
-
 Live demo: [here](https://slidev-theme-penguin.alvarosaburido.dev/)
 
 ## You can help me keep working on this project 💚
@@ -31,7 +30,6 @@ Live demo: [here](https://slidev-theme-penguin.alvarosaburido.dev/)
     <img src="https://avatars.githubusercontent.com/u/6525926?v=4" height="72px"  style="border-radius: 100%; overflow: hidden; border: 4px solid #5EDCAE" alt="OmgImAlexis">
   </a>
 </p>
-
 
 ## Install
 
@@ -73,7 +71,7 @@ themeConfig:
   twitterUrl: 'https://twitter.com/alvarosabu'
 ---
 ```
-With properties            | Without properties 
+With properties            | Without properties
 :-------------------------:|:-------------------------:
 ![introDark](./screenshots/dark/intro.png) | ![introLight](./screenshots/dark/04.png)
 
@@ -137,7 +135,6 @@ Dark                       | Light
 
 ---
 
-
 ### Text Image `text-image`
 
 Usage:
@@ -156,7 +153,6 @@ Dark                       | Light
 ![textImageDark](./screenshots/dark/text-image.png) | ![textImageLight](./screenshots/light/text-image.png)
 
 - Add `reverse:true` to reverse the order of the layout
-
 
 ```
 ---
@@ -187,7 +183,6 @@ Dark                       | Light
 ![textWindowDark](./screenshots/dark/text-window.png) | ![textWindowLight](./screenshots/light/text-window.png)
 
 - Add `reverse:true` to reverse the order of the layout
-
 
 ```
 ---
@@ -234,17 +229,26 @@ Say hi at <fancy-link href="https://twitter.com/alvarosabu">@alvarosabu</fancy-l
 
 ### Console window `the-console`
 
-
-```ts
-<the-console>
-  <iframe height="300" style="width: 100%;" scrolling="no" title="Text Clock" src="https://codepen.io/searleb/embed/pvQaJB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href="https://codepen.io/searleb/pen/pvQaJB">
-    Text Clock</a> by Bill Searle (<a href="https://codepen.io/searleb">@searleb</a>)
-    on <a href="https://codepen.io">CodePen</a>.
+```html
+<TheConsole>
+  <iframe
+    height="300"
+    style="width: 100%"
+    scrolling="no"
+    title="Text Clock"
+    src="https://codepen.io/searleb/embed/pvQaJB?default-tab=html%2Cresult"
+    frameborder="no"
+    loading="lazy"
+    allowtransparency="true"
+    allowfullscreen="true"
+  >
+    See the Pen <a href="https://codepen.io/searleb/pen/pvQaJB"> Text Clock</a> by Bill Searle (<a
+      href="https://codepen.io/searleb"
+      >@searleb</a
+    >) on <a href="https://codepen.io">CodePen</a>.
   </iframe>
-</the-console>s
+</TheConsole>
 ```
-
 
 > TODO:
 

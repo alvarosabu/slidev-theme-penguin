@@ -8,7 +8,7 @@
         class="prose pr-16"
         :class="{ 'order-1': $attrs.reverse }"
       >
-        <slot name="default" />
+        <slot name="default"></slot>
       </div>
       <figure class="relative flex flex-col justify-center">
         <AsGraphic
@@ -20,7 +20,7 @@
         <img
           :src="$attrs.media"
           class="rounded-lg shadow-lg object-cover z-10"
-        >
+        />
         <figcaption class="mt-2 text-xs w-full">
           {{ $attrs.caption }}
         </figcaption>

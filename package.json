@@ -1,5 +1,6 @@
 {
   "name": "slidev-theme-penguin",
+  "type": "module",
   "version": "2.2.0",
   "description": "A Penguin theme for Slidev",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev>",
@@ -32,23 +33,26 @@
     "build": "slidev build example.md",
     "export": "slidev export example.md",
     "release": "release-it",
-    "screenshot": "slidev export example.md --format png"
+    "screenshot": "slidev export example.md --format png",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@alvarosabu/ui": "3.0.0-alpha.16",
-    "@slidev/types": "^0.48.7",
-    "prism-theme-vars": "^0.2.4",
+    "@alvarosabu/ui": "3.0.0",
+    "@slidev/types": "^0.49.27",
+    "prism-theme-vars": "^0.2.5",
     "vite-svg-loader": "^5.1.0"
   },
   "devDependencies": {
-    "@alvarosabu/eslint-config-vue": "^0.4.0",
-    "@iconify-json/la": "^1.1.8",
-    "@iconify-json/logos": "^1.1.42",
-    "@iconify-json/simple-icons": "^1.1.96",
+    "@alvarosabu/eslint-config": "^1.2.0",
+    "@iconify-json/la": "^1.1.9",
+    "@iconify-json/logos": "^1.1.44",
+    "@iconify-json/simple-icons": "^1.1.114",
     "@release-it/conventional-changelog": "^8.0.1",
-    "@slidev/cli": "0.48.7",
-    "playwright-chromium": "^1.42.1",
-    "release-it": "^17.1.1",
-    "sass": "^1.72.0"
+    "@slidev/cli": "0.49.27",
+    "eslint": "^9.9.0",
+    "playwright-chromium": "^1.46.1",
+    "release-it": "^17.6.0",
+    "sass": "^1.77.8"
   }
 }

@@ -8,7 +8,7 @@
         class="prose pr-16"
         :class="{ 'order-1': $attrs.reverse }"
       >
-        <slot name="default" />
+        <slot name="default"></slot>
       </div>
       <div class="relative">
         <AsGraphic
@@ -17,7 +17,7 @@
           :class="{ 'left-0': $attrs.reverse }"
         />
         <TheConsole class="rounded-lg shadow-lg object-cover z-10">
-          <slot name="window" />
+          <slot name="window"></slot>
         </TheConsole>
       </div>
     </div>
