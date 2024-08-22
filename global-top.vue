@@ -13,7 +13,7 @@
         :src="$slidev.themeConfigs.eventLogo"
         class="h-8 mr-4"
         alt="Event image"
-      ></a>
+      /></a>
     </div>
     <a
       v-if="$slidev.themeConfigs.twitter"

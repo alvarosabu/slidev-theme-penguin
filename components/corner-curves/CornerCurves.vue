@@ -2,6 +2,7 @@
 import CurveBig from './assets/curve-big.svg'
 import CurveSmall from './assets/curve-small.svg'
 </script>
+
 <template>
   <div>
     <div class="relative">

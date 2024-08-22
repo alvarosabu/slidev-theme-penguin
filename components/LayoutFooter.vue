@@ -35,7 +35,7 @@ const date = computed(() => now?.value.toLocaleDateString('en-US'))
         :src="eventLogo"
         class="h-8 mr-4"
         alt="Event image"
-      ></a><span>{{ date }}</span>
+      /></a><span>{{ date }}</span>
     </div>
     <a
       v-if="twitter"

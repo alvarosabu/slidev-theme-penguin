@@ -1,12 +1,14 @@
-import { theme, shortcuts, rules, fonts, typography } from "@alvarosabu/ui";
+import { fonts, rules, shortcuts, theme, typography } from '@alvarosabu/ui'
+import type {
+  Preset,
+} from 'unocss'
 import {
   defineConfig,
-  presetWebFonts,
   presetTypography,
+  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
-  Preset,
-} from "unocss";
+} from 'unocss'
 
 export default defineConfig({
   theme,
@@ -17,4 +19,4 @@ export default defineConfig({
     presetTypography(typography) as unknown as Preset,
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
-});
+})

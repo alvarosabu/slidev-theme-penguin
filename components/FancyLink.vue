@@ -29,7 +29,7 @@ const styles = computed(() => ({
     :href="href"
     class="fancy-link mx-2 text-sm"
     :style="styles"
-  ><slot /></a>
+  ><slot></slot></a>
 </template>
 
 <style scoped>
