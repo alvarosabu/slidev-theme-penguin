@@ -35,7 +35,7 @@ presenterImage: 'https://res.cloudinary.com/alvarosaburido/image/upload/v1666351
 
 # Alvaro Saburido
 
-DevRel at <a  href="https://www.storyblok.com/"><logos-storyblok-icon  mr-1/>Storyblok</a>
+DX at <a  href="https://www.storyblok.com/"><logos-storyblok-icon  mr-1/>Storyblok</a>
 
 - Barcelona, Spain 🇪🇸
 - I often write at <a href="https://dev.to/alvarosaburido"> dev.to/@alvarosabu</a>
