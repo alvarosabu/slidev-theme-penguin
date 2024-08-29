@@ -1,5 +1,12 @@
 
 
+## [2.2.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.1...v2.2.2) (2024-08-29)
+
+
+### Bug Fixes
+
+* shiki setup theme issue ([8517d65](https://github.com/alvarosaburido/slidev-theme-penguin/commit/8517d652d8069d8fda9af655743ebc164a806b7a))
+
 ## [2.2.1](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.0...v2.2.1) (2024-08-22)
 
 ## [2.2.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.1.2...v2.2.0) (2024-03-23)
