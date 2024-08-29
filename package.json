@@ -2,6 +2,7 @@
   "name": "slidev-theme-penguin",
   "type": "module",
   "version": "2.2.1",
+  "packageManager": "pnpm@9.1.4",
   "description": "A Penguin theme for Slidev",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev>",
   "license": "MIT",
