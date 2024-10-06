@@ -1,5 +1,12 @@
 
 
+## [2.2.3](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.2...v2.2.3) (2024-10-06)
+
+
+### Bug Fixes
+
+* updated versions ([b4567ff](https://github.com/alvarosaburido/slidev-theme-penguin/commit/b4567ff853daaa95eadbab93aaf13f7e94a93880))
+
 ## [2.2.2](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.1...v2.2.2) (2024-08-29)
 
 
