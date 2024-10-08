@@ -1,5 +1,12 @@
 
 
+## [2.3.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.3...v2.3.0) (2024-10-08)
+
+
+### Features
+
+* add two-thirds layout ([639dd9f](https://github.com/alvarosaburido/slidev-theme-penguin/commit/639dd9f237bf5c8a19d824b24934fb7bb44204f5))
+
 ## [2.2.3](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.2...v2.2.3) (2024-10-06)
 
 
