@@ -182,6 +182,45 @@ currentAction.value.play()
 ```
 
 ---
+layout: two-thirds
+---
+Awiwiiw
+
+```vue
+// Model.vue
+<script setup lang="ts">
+import { useAnimations, useGLTF } from '@tresjs/cientos'
+
+const { scene: model, animations } = await useGLTF(
+  'models/ugly-bunny.gltf',
+)
+
+const { actions, mixer } = useAnimations(animations, model)
+const currentAction = ref(actions.Greeting)
+currentAction.value.play()
+</script>
+
+<template>
+  <primitive :object="model" />
+</template>
+```
+
+::right::
+
+```vue
+<template>
+  <TresCanvas
+    clear-color="”#82DBC5”"
+    window-size
+  >
+    <TresPerspectiveCamera />
+    <Suspense>
+      <Model />
+    </Suspense>
+  </TresCanvas>
+</template>
+```
+---
 layout: text-window
 
 ---
@@ -195,8 +234,8 @@ Use code snippets and get the highlighting directly into a nice looking window!
 ```ts
 // main.ts
 
-import { createApp } from 'vue'
 import { createDynamicForms } from '@asigloo/vue-dynamic-forms'
+import { createApp } from 'vue'
 
 const VueDynamicForms = createDynamicForms({
   // Global Options go here
