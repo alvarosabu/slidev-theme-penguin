@@ -1,5 +1,11 @@
 
 
+## [2.3.1](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.3.0...v2.3.1) (2024-11-11)
+
+### Bug Fixes
+
+* shiki scrollbar styles ([19a4529](https://github.com/alvarosaburido/slidev-theme-penguin/commit/19a4529c78608fb52df8621703bba907542d4d63))
+
 ## [2.3.0](https://github.com/alvarosaburido/slidev-theme-penguin/compare/v2.2.3...v2.3.0) (2024-10-08)
 
 
