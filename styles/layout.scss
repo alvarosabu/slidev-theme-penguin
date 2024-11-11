@@ -120,7 +120,7 @@ html:not(.dark) #slide-content {
 
 :root {
   --shiki-color-text: #88e5c3;
-  --shiki-color-background: #3e5166;
+  --shiki-color-background: #282A36;
   --shiki-token-constant: #7aceaf;
   --shiki-token-string: #f8e4aa;
   --shiki-token-comment: #a0ada0;
@@ -133,16 +133,18 @@ html:not(.dark) #slide-content {
 }
 
 .dark {
-  --shiki-color-background: #273341;
+  --shiki-color-background: #282A36;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --shiki-color-background: #273341;
+    --shiki-color-background: #282A36;
   }
 }
 pre.shiki {
   @apply p-4 rounded overflow-scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255, 0.1) var(--shiki-color-background);
 }
 code {
   @apply font-mono;
